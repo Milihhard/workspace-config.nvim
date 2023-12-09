@@ -1,0 +1,6 @@
+describe('Workspace config', function()
+  it('should be able to load', function()
+    require('workspace-config')
+    assert.is_true(true)
+  end)
+end)
